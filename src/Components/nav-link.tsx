@@ -1,10 +1,10 @@
 import { ComponentProps } from "react";
 
-interface NavLinkProps extends ComponentProps<"a"> {
+interface NavLinksProps extends ComponentProps<"a"> {
   children: string;
 }
 
-export function NavLink(props: NavLinkProps) {
+export function NavLinkss(props: NavLinksProps) {
   return (
     <a {...props} className="font-medium text-sm">
       {props.children}
